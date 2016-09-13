@@ -61,7 +61,7 @@ OnlyShowIn=Unity;
 
 ## Install Plugin for Sublime Text
 
-### Package Control
+### [Package Control](http://wbond.net/sublime_packages/package_control)
 Package Control is a plugin manager for sublime text.
 Now press "ctrl+`" key to call console and paste follow code into the console to install Package Control
 ```
