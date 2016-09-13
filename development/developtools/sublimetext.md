@@ -123,7 +123,7 @@ Manually:
 
 #### Installation :
 
-##### Using [Package Control][3] (*Recommended*)
+##### Using Package Control]
 
 For all Sublime Text 2/3 users we recommend install via [Package Control][3].
 
