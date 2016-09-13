@@ -231,7 +231,7 @@ DocBlockr is a package for [Sublime Text 2 & 3][sublime] which makes writing doc
 
 #### Installation
 
-##### [Package Control](https://sublime.wbond.net/installation)
+##### by [Package Control](https://sublime.wbond.net/installation)
 
 1. Open Package Control: `Preferences -> Package Control`
 2. Select `Package Control: Install Package`
