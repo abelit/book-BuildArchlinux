@@ -121,7 +121,7 @@ Manually:
 
 ### MarkdownPreview
 
-#### Installation :
+#### Installation
 
 Using Package Control:
 
