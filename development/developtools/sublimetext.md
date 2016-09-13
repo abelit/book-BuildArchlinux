@@ -28,7 +28,7 @@ FD032C30 AD5E7241 4EAA66ED 167D91FB
 
 ## Configuration
 
-* Configure desktop shortcut for sublime named "sublime_text.desktop".
+* Configure desktop shortcut for sublime named 'sublime_text.desktop'.
 ```
 [Desktop Entry]
 Version=1.0
