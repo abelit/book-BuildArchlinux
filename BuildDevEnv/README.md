@@ -2,7 +2,7 @@
 # sublime text (version 3)
 
 
-## Installation: 
+## Installation 
 
 * Learn more about sublime-text and Download it from official website.
 
@@ -28,3 +28,7 @@ FD032C30 AD5E7241 4EAA66ED 167D91FB
 55896B16 EA125C81 F550AF6B A6820916
 —— END LICENSE ——
 ```
+
+
+## Configuration
+
