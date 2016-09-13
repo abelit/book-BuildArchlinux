@@ -92,3 +92,5 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ### Bracket Highlighter
 
 ### GBK to UTF8
+
+### SideBarEnhancements
