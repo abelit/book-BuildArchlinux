@@ -62,6 +62,7 @@ OnlyShowIn=Unity;
 ## Install Plugin for Sublime Text
 
 ### Package Control
+Package Control is a plugin manager for sublime text.
 ```
 import urllib.request,os
 pf = 'Package Control.sublime-package' 
