@@ -33,3 +33,29 @@ FD032C30 AD5E7241 4EAA66ED 167D91FB
 
 ## Configuration
 
+* Configure desktop shortcut for sublime named "sublime_text.desktop".
+```
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Sublime Text
+GenericName=Text Editor
+Comment=Sophisticated text editor for code, markup and prose
+Exec=/opt/sublime_text_3/sublime_text %F
+Terminal=false
+MimeType=text/plain;
+Icon=sublime-text
+Categories=TextEditor;Development;
+StartupNotify=true
+Actions=Window;Document;
+
+[Desktop Action Window]
+Name=New Window
+Exec=/opt/sublime_text/sublime_text -n
+OnlyShowIn=Unity;
+
+[Desktop Action Document]
+Name=New File
+Exec=/opt/sublime_text_3/sublime_text --command new_file
+OnlyShowIn=Unity;
+```
