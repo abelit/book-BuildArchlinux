@@ -123,7 +123,7 @@ Manually:
 
 #### Installation :
 
-Using Package Control
+Using Package Control:
 
 For all Sublime Text 2/3 users we recommend install via [Package Control][3].
 
@@ -131,7 +131,7 @@ For all Sublime Text 2/3 users we recommend install via [Package Control][3].
 2. Use <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>P</kbd> then `Package Control: Install Package`
 3. Look for `Markdown Preview` and install it.
 
-Manual Install
+Manual Install:
 
 1. Click the `Preferences > Browse Packages…` menu
 2. Browse up a folder and then into the `Installed Packages/` folder
