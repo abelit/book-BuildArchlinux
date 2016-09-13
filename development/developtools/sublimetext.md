@@ -63,6 +63,7 @@ OnlyShowIn=Unity;
 
 ### Package Control
 Package Control is a plugin manager for sublime text.
+Now press "ctrl+`" key to call console and paste follow code into the console to install Package Control
 ```
 import urllib.request,os
 pf = 'Package Control.sublime-package' 
