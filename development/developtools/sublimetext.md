@@ -56,4 +56,5 @@ OnlyShowIn=Unity;
 ```
 
 * Copy "sublime_text.desktop" to "/usr/share/applications/"
+> cp sublime_text.desktop ~/ local/usr/share/applications/
 ## Install Plugin for Sublime Text
