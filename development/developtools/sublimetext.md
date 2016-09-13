@@ -303,7 +303,7 @@ Open the install dialog pressing <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> and
 
 Search for DocPy and press once again <kbd>Enter</kbd>
 
-## Manual Install
+#### Manual Install
 
 Download the package unzip the package files into the sublime directory: 
 
