@@ -8,7 +8,7 @@
 
 ```wget https://download.sublimetext.com/sublime_text_3_build_3114_x64.tar.bz2```
 
-* Active product
+* Active product, paste follow licence to licence panel
 
 ```
 —– BEGIN LICENSE —–
