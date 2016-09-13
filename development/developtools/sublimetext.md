@@ -456,10 +456,9 @@ The recommended way to install BracketHighlighter is via Package Control. Packag
 ##### Git Cloning
 
 Warning
+>This is not the recommended way to install BracketHighlighter for the casual user as it requires the user to know which branch to install, know how to use git, and will not get automatically updated.
 
-This is not the recommended way to install BracketHighlighter for the casual user as it requires the user to know which branch to install, know how to use git, and will not get automatically updated.
-
-If you are forking for a pull request, this is the way to go, just replace the official repository with the link for your fork.
+>If you are forking for a pull request, this is the way to go, just replace the official repository with the link for your fork.
 
 1. Quit Sublime Text.
 2. Open a terminal:
