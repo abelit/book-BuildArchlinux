@@ -268,8 +268,9 @@ Quit Sublime Text.
 If you have a previous source installation at Packages/SublimeLinter, delete it.
 Type in a terminal:
 
-cd '/path/to/Sublime Text 3/Packages'
+> cd '/path/to/Sublime Text 3/Packages'
 git clone https://github.com/SublimeLinter/SublimeLinter3.git SublimeLinter
+
 Restart Sublime Text 3.
 Please consider using Package Control instead!
 
