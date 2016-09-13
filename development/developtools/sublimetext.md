@@ -127,7 +127,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 3. Restart SublimeText
 4. Configure `SublimeREPL` (default settings in `Preferences | Package Settings | SublimeREPL | Settings - Default` should be modified in `Preferences | Package Settings | SublimeREPL | Settings - User`, this way they will survive package upgrades!
 
-Documentation
+#### Documentation
 
 Very basic documentation will soon be available on RTD: [http://sublimerepl.readthedocs.org/](http://sublimerepl.readthedocs.org/)
 
