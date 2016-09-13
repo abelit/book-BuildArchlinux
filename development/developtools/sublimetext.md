@@ -227,6 +227,23 @@ For all Sublime Text 2/3 users we recommend install via Package Control.
  - once converted a first time, the output HTML will be updated on each file save (with LiveReload plugin)
 
 ### DocBlockr
+DocBlockr is a package for [Sublime Text 2 & 3][sublime] which makes writing documentation a breeze. DocBlockr supports **JavaScript** (including ES6), **PHP**, **ActionScript**, **Haxe**, **CoffeeScript**, **TypeScript**, **Java**, **Apex**, **Groovy**, **Objective C**, **C**, **C++** and **Rust**.
+
+#### Installation
+
+##### [Package Control](https://sublime.wbond.net/installation)
+
+1. Open Package Control: `Preferences -> Package Control`
+2. Select `Package Control: Install Package`
+3. Type `DocBlockr` into the search box and select the package to install it
+
+#### Feature requests & bug reports
+
+You can leave either of these things [here][issues]. Pull requests are welcomed
+heartily, but please read [CONTRIBUTING.md][contrib] first! Basically: in this
+repo, the main development branch is `develop` and the stable 'production'
+branch is `master`. Please remember to base your branch from `develop` and issue
+the pull request back to that branch.
 
 ### SublimeLinter
 
