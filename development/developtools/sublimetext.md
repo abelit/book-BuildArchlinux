@@ -55,7 +55,8 @@ Exec=/opt/sublime_text_3/sublime_text --command new_file
 OnlyShowIn=Unity;
 ```
 
-* Copy file
-> cp dfasdfasd
+* Install sublime
+> tar -xvf sublime_text_3_build_3114_x64.tar.bz2 -C /opt/
+
 
 ## Install Plugin for Sublime Text
