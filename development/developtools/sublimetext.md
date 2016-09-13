@@ -55,7 +55,7 @@ Exec=/opt/sublime_text_3/sublime_text --command new_file
 OnlyShowIn=Unity;
 ```
 
-* Copy "sublime_text.desktop" to "/usr/share/applications/"
+* Copy 
 >  cp sublime_text.desktop ~/ local/usr/share/applications/
 
 ## Install Plugin for Sublime Text
