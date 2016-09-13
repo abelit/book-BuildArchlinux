@@ -523,9 +523,7 @@ Here is an example settings file:
 ### Snippet
 SnippetX takes comma-seperated data (csv) and combines it with a snippet of your choosing. It's like xarg but for snippets.
 
-CodeFormatter
-=============
-
+### CodeFormatter
 
 CodeFormatter is a Sublime Text 2/3 plugin that supports format (beautify) source code.
 
@@ -542,17 +540,8 @@ CodeFormatter has support for the following languages:
 * Coldfusion/Railo/Lucee
 
 
-Sponsors
------
-No sponsors yet.. :(
+#### Installing
 
-If you like the software, don't forget to donate to further development of it!
-
-[![PayPal donate button](https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_pp_142x27.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=akalongman@gmail.com&item_name=Donation to Sublime Text - CodeFormatter&item_number=1&no_shipping=1 "Donate to this project using Paypal")
-
-
-Installing
-----------
 **With the Package Control plugin:** The easiest way to install CodeFormatter is through Package Control, which can be found at this site: http://wbond.net/sublime_packages/package_control
 
 Once you install Package Control, restart Sublime Text and bring up the Command Palette (`Command+Shift+P` on OS X, `Control+Shift+P` on Linux/Windows). Select "Package Control: Install Package", wait while Package Control fetches the latest package list, then select CodeFormatter when the list appears. The advantage of using this method is that Package Control will automatically keep CodeFormatter up to date with the latest version.
@@ -582,9 +571,9 @@ The "Packages" directory is located at:
         ST3: %APPDATA%/Sublime Text 3/Packages/
 
 
-## Formatter-specific notes
+#### Formatter-specific notes
 Following are notes specific to individual formatters that you should be aware of:
-### PHP
+##### PHP
 PHP - Used phpfmt (https://github.com/phpfmt/fmt) by Carlos Cirello and Shaked Klein Orbach.
 
 Getting and installing PHP - http://www.php.net/manual/en/install.general.php
@@ -623,7 +612,7 @@ Language specific options:
 
 
 
-### Javascript/JSON
+##### Javascript/JSON
 Javascript/JSON - used [JSBeautifier] (http://jsbeautifier.org/) by Einar Lielmanis
 
 Language specific options:
@@ -654,7 +643,7 @@ Language specific options:
     }
 ```
 
-### HTML
+##### HTML
 HTML - used custom python port, please use it with caution, feature in early beta
 
 Language specific options:
@@ -676,7 +665,7 @@ Language specific options:
     }
 ```
 
-### CSS
+##### CSS
 CSS - used [JSBeautifier] (http://jsbeautifier.org/) by Einar Lielmanis and Style Css by Harutyun Amirjanyan
 
 Language specific options:
@@ -694,7 +683,7 @@ Language specific options:
         "eol": "\n" // EOL symbol
     }
 ```
-### SCSS
+##### SCSS
 SCSS - Simply modified the CSS formatter module as per the response from scss-lint (Gives way to modify further)
 
 Language specific options:
@@ -711,7 +700,7 @@ Language specific options:
     }
 ```
 
-### Python
+##### Python
 Python - used [PythonTidy] (https://pypi.python.org/pypi/PythonTidy/) by Chuck Rhode
 
 Language specific options:
@@ -776,7 +765,7 @@ Language specific options:
         "java_style_list_dedent": false
     }
 ```
-### Visual Basic/VBScript
+##### Visual Basic/VBScript
 Visual Basic/VBScript - used custom approach using the HTML beautifier as a guide
 
 Language specific options:
@@ -796,7 +785,7 @@ Language specific options:
     }
 ```
 
-### Coldfusion Markup Language
+#### Coldfusion Markup Language
 
 Language specific options:
 ```js
@@ -817,13 +806,13 @@ Language specific options:
     }
 ```
 
-##### Usage
+#### Usage
 
 Tools -> Command Palette (`Cmd+Shift+P` or `Ctrl+Shift+P`) and type `Format Code`.
 
 You can set up your own key combo for this, by going to Preferences -> Key Bindings - User, and adding a command in that huge array: `{ "keys": ["ctrl+alt+f"], "command": "code_formatter" },`. Default keybinding is `ctrl+alt+f`. You can use any other key you want, thought most of them are already taken.
 
-##### TODO
+#### TODO
 
 Add other languages support:
 * Python (for ST3)
@@ -831,7 +820,3 @@ Add other languages support:
 * Ruby
 
 Pull requests are welcome.
-
-#####Troubleshooting
-
-If you like living on the edge, please report any bugs you find on the [CodeFormatter issues](https://github.com/akalongman/sublimetext-codeformatter/issues) page.
