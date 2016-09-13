@@ -4,13 +4,10 @@
 ## Installation 
 
 * Learn more about sublime-text and Download it from official website.
-
 > wget https://download.sublimetext.com/sublime_text_3_build_3114_x64.tar.bz2
 
 * Install sublime
-```
-tar -xvf sublime_text_3_build_3114_x64.tar.bz2 -C /opt/
-```
+> tar -xvf sublime_text_3_build_3114_x64.tar.bz2 -C /opt/
 
 * Active product, copy and paste follow license to license panel.
 ```
