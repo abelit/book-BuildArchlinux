@@ -54,6 +54,7 @@ Name=New File
 Exec=/opt/sublime_text_3/sublime_text --command new_file
 OnlyShowIn=Unity;
 ```
+
 * Copy "sublime_text.desktop" to "/usr/share/applications/"
 >  cp sublime_text.desktop ~/ local/usr/share/applications/
 
