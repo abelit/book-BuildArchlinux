@@ -1,4 +1,3 @@
-
 # sublime text (version 3)
 
 
@@ -10,7 +9,9 @@ wget https://download.sublimetext.com/sublime_text_3_build_3114_x64.tar.bz2
 ```
 
 * Install sublime
-
+```
+tar -xvf sublime_text_3_build_3114_x64.tar.bz2 -C /opt/
+```
 
 * Active product, paste follow license to license panel.
 ```
