@@ -117,6 +117,45 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 ### SublimeREPL
 
+#### Installation
+============
+
+1. Install Package Control. [http://wbond.net/sublime_packages/package_control](http://wbond.net/sublime_packages/package_control)
+2. Install SublimeREPL
+ 1. `Preferences | Package Control | Package Control: Install Package`
+ 2. Choose `SublimeREPL`
+3. Restart SublimeText
+4. Configure `SublimeREPL` (default settings in `Preferences | Package Settings | SublimeREPL | Settings - Default` should be modified in `Preferences | Package Settings | SublimeREPL | Settings - User`, this way they will survive package upgrades!
+
+Documentation
+=============
+
+Very basic documentation will soon be available on RTD: [http://sublimerepl.readthedocs.org/](http://sublimerepl.readthedocs.org/)
+
+#### Getting started
+
+* Create or open your file with code.
+* Menu / Tools / Command Palette (OS X: `⇧⌘P`) 
+then type "SublimeREPL" and select the approperiate language.
+* Menu / View / Layout / Rows: 2 (OS X: `⌥⇧⌘2`).
+* Menu / View / Move File to Group / Group 2 (`⌃⇧2`).
+
+#### Keybindings
+
+* Evaluate in REPL:
+ * <kbd>ctrl+,</kbd>, <kbd>s</kbd> Selection
+ * <kbd>ctrl+,</kbd>, <kbd>f</kbd> File  
+ * <kbd>ctrl+,</kbd>, <kbd>l</kbd> Lines
+ * <kbd>ctrl+,</kbd>, <kbd>b</kbd> Block
+* Transfer in REPL (just copy, without evaluating it):
+ * <kbd>ctrl+shift+,</kbd>, <kbd>s</kbd> Selection
+ * <kbd>ctrl+shift+,</kbd>, <kbd>f</kbd> File  
+ * <kbd>ctrl+shift+,</kbd>, <kbd>l</kbd> Lines
+ * <kbd>ctrl+shift+,</kbd>, <kbd>b</kbd> Block
+
+Note: <kbd>ctrl+,</kbd>, <kbd>f</kbd> means: press Ctrl and Comma, release all, press F.
+
+
 ### ColorPicker
 
 ### MarkdownPreview
