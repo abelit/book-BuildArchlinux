@@ -84,6 +84,36 @@ Manually:
 
 > WARNING: When plugin is installed, it will automatically download required PyV8 binary so you have to wait a bit (see Loading PyV8 binary message on status bar). If you experience issues with automatic PyV8 loader, try to install it manually.
 
+Available actions
+```
+Expand Abbreviation – Tab or Ctrl+E
+Interactive “Expand Abbreviation” — Ctrl+Alt+Enter
+Match Tag Pair Outward – ⌃D (Mac) / Ctrl+, (PC)
+Match Tag Pair Inward – ⌃J / Shift+Ctrl+0
+Go to Matching Pair – ⇧⌃T / Ctrl+Alt+J
+Wrap With Abbreviation — ⌃W / Shift+Ctrl+G
+Go to Edit Point — Ctrl+Alt+→ or Ctrl+Alt+←
+Select Item – ⇧⌘. or ⇧⌘, / Shift+Ctrl+. or Shift+Ctrl+,
+Toggle Comment — ⇧⌥/ / Shift+Ctrl+/
+Split/Join Tag — ⇧⌘' / Shift+Ctrl+`
+Remove Tag – ⌘' / Shift+Ctrl+;
+Update Image Size — ⇧⌃I / Ctrl+U
+Evaluate Math Expression — ⇧⌘Y / Shift+Ctrl+Y
+Reflect CSS Value – ⇧⌘R / Shift+Ctrl+R
+Encode/Decode Image to data:URL – ⇧⌃D / Ctrl+'
+Rename Tag – ⇧⌘K / Shift+Ctrl+'
+```
+
+Increment/Decrement Number actions:
+```
+Increment by 1: Ctrl+↑
+Decrement by 1: Ctrl+↓
+Increment by 0.1: Alt+↑
+Decrement by 0.1: Alt+↓
+Increment by 10: ⌥⌘↑ / Shift+Alt+↑
+Decrement by 10: ⌥⌘↓ / Shift+Alt+↓
+```
+
 ### SublimeREPL
 
 ### ColorPicker
