@@ -69,6 +69,17 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ```
 
 ### Emmet
+> Warning: this plugin may not work at all in some OSes since it written in JavaScript and uses PyV8 and Google V8 binaries to run. If you experience problems or editor crashes please fill an issue.
+
+With Package Control:
+
+1. Run “Package Control: Install Package” command, find and install Emmet plugin.
+2. Restart ST editor (if required)
+
+Manually:
+
+1. Clone or download git repo into your packages folder (in ST, find Browse Packages… menu item to open this folder)
+2. Restart ST editor (if required)
 
 ### SublimeREPL
 
