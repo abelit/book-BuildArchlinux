@@ -163,7 +163,7 @@ Manual Install:
 ### JsFormat
 
 #### Install
-[Package Control](https://github.com/wbond/sublime_package_control) (Recommended)
+[Package Control](https://github.com/wbond/sublime_package_control) (Recommended):
 JsFormat is now included in the default repository channel for [Package Control](https://github.com/wbond/sublime_package_control). It should show up in your install list
 with no changes.
 
