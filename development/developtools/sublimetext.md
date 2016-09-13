@@ -138,6 +138,18 @@ Manual Install:
 3. Download [zip package][12] rename it to `Markdown Preview.sublime-package` and copy it into the `Installed Packages/` directory
 4. Restart Sublime Text
 
+#### To preview :
+
+ - optionally select some of your markdown for conversion
+ - use <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>P</kbd> then `Markdown Preview` to show the follow commands (you will be prompted to select which parser you prefer):
+	- Markdown Preview: Preview in Browser
+	- Markdown Preview: Export HTML in Sublime Text
+	- Markdown Preview: Copy to Clipboard
+	- Markdown Preview: Open Markdown Cheat sheet
+ - or bind some key in your user key binding, using a line like this one:
+   `{ "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },` for a specific parser and target or `{ "keys": ["alt+m"], "command": "markdown_preview_select", "args": {"target": "browser"} },` to bring up the quick panel to select enabled parsers for a given target.
+ - once converted a first time, the output HTML will be updated on each file save (with LiveReload plugin)
+
 ### DocBlockr
 
 ### SublimeLinter
