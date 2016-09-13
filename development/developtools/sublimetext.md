@@ -250,27 +250,16 @@ the pull request back to that branch.
 SublimeLinter itself is only a framework for linters. The linters are distributed as independent Sublime Text 3 plugins.
 
 #### Installing via Package Control
-To install SublimeLinter via Package Control, follow these steps:
 
-Open the Command Palette (cmd+shift+p on Mac OS X, ctrl+shift+p on Linux/Windows).
-Type install and select Package Control: Install Package from the Command Palette. There will be a pause of a few seconds while Package Control finds the available packages.
-When the list of available packages appears, type linter and select SublimeLinter. Note: The github repository name is “SublimeLinter3”, but the plugin name remains “SublimeLinter”.
-After a few seconds SublimeLinter will be installed and loaded. Depending on your setup, you may see some prompts from SublimeLinter. For more information on SublimeLinter’s startup actions, see Startup actions.
-You will see an install message. After reading the message, restart Sublime Text 3.
-If you have a previous installation of SublimeLinter via Package Control, including “SublimeLinter Beta”, it should be updated correctly from the new version. If something goes wrong, use Package Control to remove SublimeLinter and then follow the steps above to install again.
+
 
 #### Installing from source
-I very strongly discourage you from installing from source. There is no advantage to installing from source vs. using Package Control. In fact, there are several disadvantages, including no automatic updates, no update messages, etc.
-
-If you insist on installing from source, please do not do so unless you are comfortable with the command line and know what you are doing. To install SublimeLinter from source, do the following:
-
-Quit Sublime Text.
 If you have a previous source installation at Packages/SublimeLinter, delete it.
 Type in a terminal:
-
-> cd '/path/to/Sublime Text 3/Packages'
+```
+cd '/path/to/Sublime Text 3/Packages'
 git clone https://github.com/SublimeLinter/SublimeLinter3.git SublimeLinter
-
+```
 Restart Sublime Text 3.
 Please consider using Package Control instead!
 
