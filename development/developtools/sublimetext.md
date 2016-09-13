@@ -69,6 +69,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ```
 
 ### Emmet
+#### How to install
 > Warning: this plugin may not work at all in some OSes since it written in JavaScript and uses PyV8 and Google V8 binaries to run. If you experience problems or editor crashes please fill an issue.
 
 With Package Control:
