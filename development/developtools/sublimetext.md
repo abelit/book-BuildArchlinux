@@ -13,7 +13,7 @@ tar -xvf sublime_text_3_build_3114_x64.tar.bz2 -C /opt/
 ```
 
 * Active product, copy and paste follow license to license panel.
-```
+>
 —– BEGIN LICENSE —–
 Ryan Clark
 Single User License
@@ -27,7 +27,6 @@ D304FA8D B1B4F0AF 8A76C7BA 0FA94D55
 FD032C30 AD5E7241 4EAA66ED 167D91FB
 55896B16 EA125C81 F550AF6B A6820916
 —— END LICENSE ——
-```
 
 
 ## Configuration
