@@ -510,7 +510,7 @@ Control.
 
 #### Usage
 Specify the list of favorite files in the QuickFileOpen.sublime-settings file.
-The files can then be accessed by hitting `ctrl+alt+shift+p`, which can be
+The files can then be accessed by hitting <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>p</kbd>, which can be
 configured in the user keybindings file.
 
 Here is an example settings file:
