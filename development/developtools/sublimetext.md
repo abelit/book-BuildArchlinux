@@ -125,9 +125,9 @@ Manually:
 
 Using Package Control:
 
-For all Sublime Text 2/3 users we recommend install via [Package Control][3].
+For all Sublime Text 2/3 users we recommend install via Package Control.
 
-1. [Install][11] Package Control if you haven't yet.
+1. Install Package Control if you haven't yet.
 2. Use <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>P</kbd> then `Package Control: Install Package`
 3. Look for `Markdown Preview` and install it.
 
@@ -135,7 +135,7 @@ Manual Install:
 
 1. Click the `Preferences > Browse Packages…` menu
 2. Browse up a folder and then into the `Installed Packages/` folder
-3. Download [zip package][12] rename it to `Markdown Preview.sublime-package` and copy it into the `Installed Packages/` directory
+3. Download zip package rename it to `Markdown Preview.sublime-package` and copy it into the `Installed Packages/` directory
 4. Restart Sublime Text
 
 #### To preview :
