@@ -82,3 +82,5 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 
 ### Alignment
+
+### SublimeCodeIntel
