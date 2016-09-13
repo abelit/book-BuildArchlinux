@@ -67,4 +67,6 @@ OnlyShowIn=Unity;
 
 ### SublimeREPL
 
-### 
+### ColorPicker
+
+### MarkdownPreview
