@@ -166,10 +166,8 @@ Manual Install:
 ##### [Package Control](https://github.com/wbond/sublime_package_control) (Recommended):
 
 JsFormat is now included in the default repository channel for [Package Control](https://github.com/wbond/sublime_package_control). It should show up in your install list with no changes.
-
 If it does not show up, or you are on an older version of Package Control,
-add https://github.com/jdc0589/JsFormat as a Package Control repository. JsFormat will show up in the
-package install list.
+add https://github.com/jdc0589/JsFormat as a Package Control repository. JsFormat will show up in the package install list.
 
 ##### Git Clone:
 Clone this repository in to the Sublime Text 2 "Packages" directory, which is located where ever the
