@@ -284,3 +284,27 @@ OK via the command palette but does nothing when you use the "ctrl + alt + f" sh
 ### GBK to UTF8
 
 ### SideBarEnhancements
+
+
+### Sublime3-pydoc
+Sublime 3 Pydoc plugin. This plugin autocompletes Docstrings if using python function definitions.
+
+#### Description
+
+DocPy autocompletes a docstring for any python function definition and inserts default arguments which can then be replaced.
+
+#### Installation
+
+Either way install it using Package Control or download it.
+
+#### By Package Control
+
+Open the install dialog pressing <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> and type in "Install Package" and then <kbd>Enter</kbd>
+
+Search for DocPy and press once again <kbd>Enter</kbd>
+
+## Manual Install
+
+Download the package unzip the package files into the sublime directory: 
+
+~/.config/sublime-text-3/Packages/DocPy
