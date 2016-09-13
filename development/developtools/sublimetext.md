@@ -73,12 +73,12 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 *Warning:* this plugin may not work at all in some OSes since it written in JavaScript and uses [PyV8](http://code.google.com/p/pyv8/) and [Google V8](https://developers.google.com/v8/) binaries to run. If you experience problems or editor crashes please [fill an issue](https://github.com/sergeche/emmet-sublime/issues).
 
-With [Package Control](http://wbond.net/sublime_packages/package_control):
+##### With [Package Control](http://wbond.net/sublime_packages/package_control)
 
 1. Run “Package Control: Install Package” command, find and install `Emmet` plugin.
 2. Restart ST editor (if required)
 
-Manually:
+##### Manually
 
 1. Clone or [download](https://github.com/sergeche/emmet-sublime/archive/master.zip) git repo into your packages folder (in ST, find Browse Packages... menu item to open this folder)
 2. Restart ST editor (if required)
@@ -123,7 +123,7 @@ Manually:
 
 #### Installation
 
-Using Package Control:
+##### Using Package Control
 
 For all Sublime Text 2/3 users we recommend install via Package Control.
 
@@ -131,14 +131,14 @@ For all Sublime Text 2/3 users we recommend install via Package Control.
 2. Use <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>P</kbd> then `Package Control: Install Package`
 3. Look for `Markdown Preview` and install it.
 
-Manual Install:
+##### Manual Install
 
 1. Click the `Preferences > Browse Packages…` menu
 2. Browse up a folder and then into the `Installed Packages/` folder
 3. Download zip package rename it to `Markdown Preview.sublime-package` and copy it into the `Installed Packages/` directory
 4. Restart Sublime Text
 
-#### To preview :
+#### To preview
 
  - optionally select some of your markdown for conversion
  - use <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>P</kbd> then `Markdown Preview` to show the follow commands (you will be prompted to select which parser you prefer):
