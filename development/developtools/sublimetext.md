@@ -82,6 +82,8 @@ Manually:
 1. Clone or download git repo into your packages folder (in ST, find Browse Packages… menu item to open this folder)
 2. Restart ST editor (if required)
 
+> WARNING: When plugin is installed, it will automatically download required PyV8 binary so you have to wait a bit (see Loading PyV8 binary message on status bar). If you experience issues with automatic PyV8 loader, try to install it manually.
+
 ### SublimeREPL
 
 ### ColorPicker
