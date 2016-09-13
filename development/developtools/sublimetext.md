@@ -55,8 +55,7 @@ Exec=/opt/sublime_text_3/sublime_text --command new_file
 OnlyShowIn=Unity;
 ```
 
-* Install sublime
-> tar -xvf sublime_text_3_build_3114_x64.tar.bz2 -C /opt/
-
+* Copy sublime_text.desktop to "/usr/share/applications/" or "~/.local/usr/share/applications"
+> cp sublime_text.desktop /usr/share/applications/
 
 ## Install Plugin for Sublime Text
