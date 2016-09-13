@@ -447,7 +447,7 @@ OK via the command palette but does nothing when you use the "ctrl + alt + f" sh
 The recommended way to install BracketHighlighter is via Package Control. Package Control will install the correct branch on your system and keep it up to date.
 
 1. Ensure Package Control is installed. Instructions are found here.
-2. In Sublime Text, press `ctrl + shift + p` (Win, Linux) or `cmd + shift + p` (OSX) to bring up the quick panel and start typing Package Control: Install Package. Select the command and it will show a list of installable plugins.
+2. In Sublime Text, press ``ctrl + shift + p`` (Win, Linux) or ``cmd + shift + p`` (OSX) to bring up the quick panel and start typing Package Control: Install Package. Select the command and it will show a list of installable plugins.
 3. Start typing BracketHighlighter; when you see it, select it.
 4. Restart to be sure everything is loaded proper.
 5. Enjoy!
