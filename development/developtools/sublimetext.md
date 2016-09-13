@@ -265,6 +265,7 @@ Please consider using Package Control instead!
 
 
 ### Alignment
+A simple key-binding for aligning multi-line and multiple selections in Sublime Text.
 
 ### SublimeCodeIntel
 
