@@ -520,3 +520,5 @@ Here is an example settings file:
     "files": ["file1", "file2"]
 }
 ```
+### Snippet
+SnippetX takes comma-seperated data (csv) and combines it with a snippet of your choosing. It's like xarg but for snippets.
