@@ -13,6 +13,7 @@ tar -xvf sublime_text_3_build_3114_x64.tar.bz2 -C /opt/
 ```
 
 * Active product, copy and paste follow license to license panel.
+
 >
 —– BEGIN LICENSE —–
 Ryan Clark
