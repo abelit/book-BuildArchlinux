@@ -134,3 +134,56 @@ OnlyShowIn=Unity;
 * [macOS](./docs/build-instructions/macos.md)
 * [FreeBSD](./docs/build-instructions/freebsd.md)
 * [Windows](./docs/build-instructions/windows.md)
+
+# Plugins for Atom
+
+Color Picker
+
+As the name implies, this package lets you pick colors, and it is as easy as a right-click and choosing ‘Color Picker’. Alternatively it can be done by pressing CMD/CTRL+SHIFT+C. Color Picker works if your cursor is on the text on CSS/SASS/LESS files that contain one of the following color formats: HEX, HEXa, RGB, RGBa, HSL, HSLa, HSV, HSVa, VEC3 and VEC4, or color variable on SASS or LESS. It also has the ability to convert between the formats.
+
+
+Emmet
+
+Emmet seems to be a plugin that you need to install, whatever your text editor environment is. The main features of Emmet such as expanding abbreviations and wrapping with abbreviations, allow you to work quickly when writing HTML, CSS, Sass / SCSS and LESS syntaxes. For example, in HTML, type p>a.mylink then tap on TAB key to get a complete HTML tag <p><a href class="mylink"></a></p>. The Cheat Sheet will helps you to quickly learn Emmet’s abbreviation syntax.
+
+
+Minimap
+
+If you are accustomed to Sublime Text, you may be familiar with the mini preview on the right side window. That feature is useful to quickly scroll through source codes too long for the window height. With Minimap, you get this for Atom. You can even set the position to be on the left or right, turn on/off code highlights, and more. Minimap even comes with some plugins to extend its functionality, such as color highlighter.
+
+
+Beautify
+
+Beautify will turn your messy code neater and more readable. It has great support for programming languages, such as HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C ++, C #, Objective-C, CoffeeScript, typescript, and SQL. After installing this package, to run it, just right-click and choose ‘Beautify editor contents’, or via Packages > Atom Beautify > Beautify.
+
+
+Atom Linter
+
+Atom Linter comes as a ‘house’ of linting plugins for major languages, providing the top level API for linters. There are available linters for JavaScript, CoffeeScript, CSS / SASS / SCSS / LESS / STYLUS, Ruby, Python. In one language there are can be more one plugin available, such as JSHint, JSCS and JSXHint for JavaScript.
+
+After installing this main package, you need to install the specific linter for language you work on, for example if you are on JavaScript and choose JSHint for linter then you can install it by running $ apm install linter-jshint on Terminal.
+
+File Icons
+
+File Icons add icons to a filename based on the corresponding file type. It will add visual improvements when you open a file on tab or on tree view. The file icons are customizable: you can add your own icon and change the color through the LESS files in the packages/file-icons/styles directory. The default icon comes in 8 colors and 3 variants (light, medium and dark).
+
+
+JavaScript Snippets
+
+JavaScript Snippets lets you quickly write a portion of JS source code. With defined abbreviation you don’t need to write code word for word, for instance just type cl to make console.log and gi for getElementById. This functionality is similiar to Emmet, but it runs on JavaScript code. This Atom package provides many of the JavaScript syntax like the function, the console, and the loop.
+
+
+CSS Comb
+
+CSS Comb makes your stylesheet code formatted consistently, looking neat and beautiful. You can use pre-made sorting preferences based on Yandex, Zen, or CSSComb itself, or you can even use your own preference to make sorting rules. After installing this package, the sorting job can be done by pressing CTRL + ALT + C or accessed from the context menu via Packages > CSS comb > Comb.
+
+
+Git Plus
+
+Git Plus allows you to work with Git without leaving Atom editor. Within the editor you are able to make a Git commit, checkout, push/pull, diff and other git commands. You need to setup your user.name and user.email on your git config file to make all functions work. To access all git command, open the palette with CMD + SHIFT + H or choose Package > Git Plus.
+
+
+Remote Edit
+
+Remote Edit helps you to see and edit your remote files without leaving the editor or with the use of other ftp applications. To start, firstly create a new host, then add via menu Packages > Remote Edit > Add New Host and insert your login information. Now you can browse to your remote files, use CTRL + ALT + B to browse registered host and see the files.
+
