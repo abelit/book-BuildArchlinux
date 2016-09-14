@@ -1,7 +1,15 @@
 # Vim
 
+## About
 
 Vim is a text editor for programmers, power users & command-line junkies.
+
+## Configuration
+
+```
+
+
+```
 
 #Install Plugin for Vim
 
