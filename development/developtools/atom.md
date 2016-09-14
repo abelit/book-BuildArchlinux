@@ -150,12 +150,12 @@ Emmet seems to be a plugin that you need to install, whatever your text editor e
 ## Minimap
 
 If you are accustomed to Sublime Text, you may be familiar with the mini preview on the right side window. That feature is useful to quickly scroll through source codes too long for the window height. With Minimap, you get this for Atom. You can even set the position to be on the left or right, turn on/off code highlights, and more. Minimap even comes with some plugins to extend its functionality, such as color highlighter.
-
+![](../../assets/development/minimap.gif)
 
 ## Beautify
 
 Beautify will turn your messy code neater and more readable. It has great support for programming languages, such as HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C ++, C #, Objective-C, CoffeeScript, typescript, and SQL. After installing this package, to run it, just right-click and choose ‘Beautify editor contents’, or via Packages > Atom Beautify > Beautify.
-
+![](../../assets/development/beautify.gif)
 
 ## Atom Linter
 
@@ -167,11 +167,12 @@ After installing this main package, you need to install the specific linter for 
 
 File Icons add icons to a filename based on the corresponding file type. It will add visual improvements when you open a file on tab or on tree view. The file icons are customizable: you can add your own icon and change the color through the LESS files in the packages/file-icons/styles directory. The default icon comes in 8 colors and 3 variants (light, medium and dark).
 
+![](../../assets/development/fileicons.jpg)
 
 ## JavaScript Snippets
 
 JavaScript Snippets lets you quickly write a portion of JS source code. With defined abbreviation you don’t need to write code word for word, for instance just type cl to make console.log and gi for getElementById. This functionality is similiar to Emmet, but it runs on JavaScript code. This Atom package provides many of the JavaScript syntax like the function, the console, and the loop.
-
+![](../../assets/development/minimap.gif)
 
 ## CSS Comb
 
