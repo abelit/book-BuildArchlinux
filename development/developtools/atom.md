@@ -94,7 +94,10 @@ repeat these steps to upgrade to future releases.
 
 ### Archlinux
 
+#### Install by pacman
+> sudo pacman -S atom
 
+#### Manul
 
 ## Building
 
