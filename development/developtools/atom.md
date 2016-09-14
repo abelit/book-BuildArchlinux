@@ -140,12 +140,12 @@ OnlyShowIn=Unity;
 ## Color Picker
 
 As the name implies, this package lets you pick colors, and it is as easy as a right-click and choosing ‘Color Picker’. Alternatively it can be done by pressing CMD/CTRL+SHIFT+C. Color Picker works if your cursor is on the text on CSS/SASS/LESS files that contain one of the following color formats: HEX, HEXa, RGB, RGBa, HSL, HSLa, HSV, HSVa, VEC3 and VEC4, or color variable on SASS or LESS. It also has the ability to convert between the formats.
-![](assets/development/colorpicker.jpg)
+![](../../assets/development/colorpicker.jpg)
 
 ## Emmet
 
 Emmet seems to be a plugin that you need to install, whatever your text editor environment is. The main features of Emmet such as expanding abbreviations and wrapping with abbreviations, allow you to work quickly when writing HTML, CSS, Sass / SCSS and LESS syntaxes. For example, in HTML, type p>a.mylink then tap on TAB key to get a complete HTML tag <p><a href class="mylink"></a></p>. The Cheat Sheet will helps you to quickly learn Emmet’s abbreviation syntax.
-
+![](../../assets/development/emmet.gif)
 
 ## Minimap
 
