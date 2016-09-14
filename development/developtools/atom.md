@@ -103,7 +103,29 @@ repeat these steps to upgrade to future releases.
 
 2. Add desktop shortcuts, `atom.desktop`
 ```
+[Desktop Entry]
+Version=1.10.2
+Type=Application
+Name=Atom
+GenericName=Text Editor
+Comment=Sophisticated text editor for code, markup and prose
+Exec=/opt/atom-1.10.2-amd64/atom %F
+Terminal=false
+MimeType=text/plain;
+Icon=atom
+Categories=TextEditor;Development;
+StartupNotify=true
+Actions=Window;Document;
 
+[Desktop Action Window]
+Name=New Window
+Exec=/opt/atom-1.10.2-amd64/atom -n
+OnlyShowIn=Unity;
+
+[Desktop Action Document]
+Name=New File
+Exec=/opt/atom-1.10.2-amd64/atom --command new_file
+OnlyShowIn=Unity;
 ```
 
 ## Building
