@@ -97,7 +97,11 @@ repeat these steps to upgrade to future releases.
 #### Install by pacman
 > sudo pacman -S atom
 
-#### Manul
+#### Manually
+1. Extract package to `/opt`
+> tar -xf atom-amd64.tar.gz -C /opt
+
+
 
 ## Building
 
