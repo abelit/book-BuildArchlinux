@@ -101,7 +101,7 @@ repeat these steps to upgrade to future releases.
 1. Extract package to `/opt`
 > tar -xf atom-amd64.tar.gz -C /opt
 
-2. Add desktop shortcuts 
+2. Add desktop shortcuts, `atom.desktop`
 ```
 
 ```
