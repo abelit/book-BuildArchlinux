@@ -92,6 +92,10 @@ libnotify4 libxtst6 libnss3 python gvfs-bin xdg-utils libcap2`
 The Linux version does not currently automatically update so you will need to
 repeat these steps to upgrade to future releases.
 
+### Archlinux
+
+
+
 ## Building
 
 * [Linux](./docs/build-instructions/linux.md)
