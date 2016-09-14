@@ -1,4 +1,4 @@
-### sublime text (version 3)
+# sublime text (version 3)
 
 
 ## Installation 
