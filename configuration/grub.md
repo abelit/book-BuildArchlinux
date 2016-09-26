@@ -86,3 +86,80 @@ Grub2 has some keyboard lag using themes, as referred on "[The Definitive Guide 
 
 ## Ideas or suggestions to share in:  
 [github issues](https://github.com/Generator/Grub2-themes/issues)  
+
+
+
+How to Install Plymouth on Archlinux
+
+Plymouth is a project from Fedora providing a flicker-free graphical boot process. It relies on kernel mode setting (KMS) to set the native resolution of the display as early as possible, then provides an eye-candy splash screen leading all the way up to the login manager.
+
+Sites: http://www.freedesktop.org/wiki/Software/Plymouth
+
+NOTE:
+Warning: Plymouth is currently under heavy development and may contain bugs.
+To Install it, I using Plymouth Stable from AUR. When write this post i'm using plymouth 0.8.8.8, here's the link:
+https://aur.archlinux.org/packages/plymouth/
+
+$sudo wget https://aur.archlinux.org/packages/pl/plymouth/plymouth.tar.gz
+$tar -xvzf plymouth.tar.gz
+$cd plymouth
+$makepkg -s
+$sudo pacman -U *.pkg.tar.xz
+
+Plymouth is installed. Now configuring plymouth.
+
+Your System must have KMS enabled, see related post below:
+Ati AMD Radeon
+Intel
+Nvidia
+
+$sudo nano /etc/mkinitcpio.conf
+add plymouth like this. on HOOKS.
+
+
+
+then save
+$sudo mkinitcpio -p linux
+
+And edit the kernel parameters
+$sudo nano /etc/default/grub
+
+add "quiet splash" on GRUB_CMDLINE_LINUX_DEFAULT
+
+
+
+Then:
+$sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+Now set the plymouth themes.
+
+List Plymouth themes:
+$plymouth-set-default-theme -l
+
+
+
+Set the themes:
+$sudo plymouth-set-default-theme -R themenames
+
+For this example i choose solar:
+$sudo plymouth-set-default-theme -R solar
+
+Preview themes:
+Pres CTRL+ALT+F2
+Insert your root password
+#plymouthd
+#plymouth --show-splash
+
+But don't try to preview it.. I got freeze, only power button work, that get my machines shutdown.. :p
+
+Set gdm, kde, lxdm, lightdm, plymouth service
+If you using gdm
+#systemctl disable gdm
+#systemctl enable gdm-plymouth
+
+That's it now reboot to test it out.
+--------------------------
+Note:
+At this time plymouth seems not running properly. Plymouth cannot quit. Both version stable & git, get same problem. To remove plymouth press ctrl+ alt + f2, when your plymouth not stopping. then login using root user, delete plymouth completely and all settings.
+
+This is my video that using plymouth, but this is 2012 version.
