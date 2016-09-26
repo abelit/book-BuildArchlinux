@@ -1,4 +1,4 @@
-#GRUB2主题包手动安装设置
+##GRUB2主题包手动安装设置
 
 
 ###1. 复制GRUB2主题包到/boot/grub/themes
