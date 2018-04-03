@@ -222,4 +222,6 @@ Autocomplete-plus provider for Java
 
 Python packages, variables, methods and functions with their arguments autocompletion in Atom powered by your choice of Jedi or Kite.
 
+## autocomplete-xml
 
+XML tag autocompletion for Atom text editor!
