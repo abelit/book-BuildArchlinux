@@ -225,3 +225,7 @@ Python packages, variables, methods and functions with their arguments autocompl
 ## autocomplete-xml
 
 XML tag autocompletion for Atom text editor!
+
+## atom-runner
+
+This package will run various script files inside of Atom. It currently supports JavaScript, CoffeeScript, Ruby, Python, Go, Bash and PowerShell scripts. You can add more!
