@@ -197,5 +197,9 @@ Build Django apps faster with Atom.
 
 The package was created at the beginning to help in the daily work with manuals for customers. Many people are not familiar with Markdown and they will now receive a well-formatted PDF from their developers. Important here is that the document looks good and professional. This Atom package tries to ask about this task.
 
-## 
+## Markdown Preview Plus (MPP)
+
+Markdown Preview Plus (MPP) is a fork of Markdown Preview that provides a real-time preview of markdown documents.
+
+##
 
