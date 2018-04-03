@@ -206,5 +206,9 @@ Markdown Preview Plus (MPP) is a fork of Markdown Preview that provides a real-t
 
 A terminal package for Atom, complete with themes, API and more for PlatformIO IDE.
 
-##
+## pdf-view
+
+Adds support for viewing PDF files in Atom. Powered by PDF.js
+
+## 
 
