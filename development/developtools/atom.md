@@ -210,5 +210,7 @@ A terminal package for Atom, complete with themes, API and more for PlatformIO I
 
 Adds support for viewing PDF files in Atom. Powered by PDF.js
 
-## 
+## markdown-toc
+
+
 
