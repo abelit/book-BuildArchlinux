@@ -214,5 +214,9 @@ Adds support for viewing PDF files in Atom. Powered by PDF.js
 
 Generate TOC (table of contents) of headlines from parsed markdown file.
 
+## autocomplete-java
 
+Autocomplete-plus provider for Java
+
+## 
 
