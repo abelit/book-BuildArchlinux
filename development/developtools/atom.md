@@ -195,11 +195,13 @@ Build Django apps faster with Atom.
 
 ## markdown-themeable-pdf
 
+This Atom package converts / prints / exports your markdown file simple and pretty to PDF, HTML, JPEG or PNG format.
 The package was created at the beginning to help in the daily work with manuals for customers. Many people are not familiar with Markdown and they will now receive a well-formatted PDF from their developers. Important here is that the document looks good and professional. This Atom package tries to ask about this task.
 
 ## Markdown Preview Plus (MPP)
 
 Markdown Preview Plus (MPP) is a fork of Markdown Preview that provides a real-time preview of markdown documents.
 
-##
+
+
 
