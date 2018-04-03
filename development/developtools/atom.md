@@ -202,6 +202,9 @@ The package was created at the beginning to help in the daily work with manuals 
 
 Markdown Preview Plus (MPP) is a fork of Markdown Preview that provides a real-time preview of markdown documents.
 
+## platformio-ide-terminal
 
+A terminal package for Atom, complete with themes, API and more for PlatformIO IDE.
 
+##
 
