@@ -220,5 +220,6 @@ Autocomplete-plus provider for Java
 
 ## autocomplete-python
 
+Python packages, variables, methods and functions with their arguments autocompletion in Atom powered by your choice of Jedi or Kite.
 
 
