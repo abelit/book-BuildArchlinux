@@ -212,5 +212,7 @@ Adds support for viewing PDF files in Atom. Powered by PDF.js
 
 ## markdown-toc
 
+Generate TOC (table of contents) of headlines from parsed markdown file.
+
 
 
