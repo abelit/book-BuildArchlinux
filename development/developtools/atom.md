@@ -191,5 +191,9 @@ Remote Edit helps you to see and edit your remote files without leaving the edit
 
 ## atom-django
 
+## markdown-themeable-pdf
+
+The package was created at the beginning to help in the daily work with manuals for customers. Many people are not familiar with Markdown and they will now receive a well-formatted PDF from their developers. Important here is that the document looks good and professional. This Atom package tries to ask about this task.
+
 ## 
 
