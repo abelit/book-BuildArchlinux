@@ -188,3 +188,8 @@ Git Plus allows you to work with Git without leaving Atom editor. Within the edi
 
 Remote Edit helps you to see and edit your remote files without leaving the editor or with the use of other ftp applications. To start, firstly create a new host, then add via menu Packages > Remote Edit > Add New Host and insert your login information. Now you can browse to your remote files, use CTRL + ALT + B to browse registered host and see the files.
 
+
+## atom-django
+
+## 
+
