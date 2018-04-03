@@ -229,3 +229,9 @@ XML tag autocompletion for Atom text editor!
 ## atom-runner
 
 This package will run various script files inside of Atom. It currently supports JavaScript, CoffeeScript, Ruby, Python, Go, Bash and PowerShell scripts. You can add more!
+
+## python-tools
+
+Some handy tools to make developing Python code in Atom even more enjoyable.
+
+Goes along really nicely with the autocomplete-python package to provide a full Python IDE experience in Atom.
